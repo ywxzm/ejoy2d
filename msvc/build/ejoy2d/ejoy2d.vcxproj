@@ -124,7 +124,7 @@
       <PrecompiledHeader>
       </PrecompiledHeader>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>LUA_BUILD_AS_DLL;WIN32;EJOY2D_LUA=$(EJOY2D_LUA);EJOY2D_OS=WINDOWS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;WIN32;LUA_BUILD_AS_DLL;EJOY2D_LUA=$(EJOY2D_LUA);EJOY2D_OS=WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <CompileAs>CompileAsCpp</CompileAs>
       <DisableSpecificWarnings>4996;4244;4018</DisableSpecificWarnings>
       <AdditionalIncludeDirectories>$(EJOY2D_GLEW);$(EJOY2D)\include\;$(EJOY2D_ROOT)\lib\;$(EJOY2D_ROOT)\lib\render;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
